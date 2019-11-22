@@ -1,0 +1,64 @@
+#1567015068
+sudo -s
+#1567015106
+ls -la
+#1567015123
+cd GIT_VIEWS/
+#1567015124
+ls
+#1567015186
+mkdir mikaelly
+#1567015232
+echo "# mikaelly.github.io" >> README.md
+#1567015239
+git init
+#1567015250
+git status
+#1567015269
+git add .
+#1567015280
+git commit -m "teste"
+#1567015302
+git remote add origin https://github.com/mikaellypereira/mikaelly.github.io.git
+#1567015315
+git push origin master
+#1567015672
+cd ..
+#1567015677
+cd Doc
+#1567015690
+ls
+#1567015696
+cd Documentos/
+#1567015697
+ls
+#1567015704
+cd Currículo\ Mikaelly/
+#1567015706
+ls
+#1567015762
+git remote set-url https://github.com/mikaellypereira/mikaelly.github.io.git
+#1567015817
+git info
+#1567015824
+git remote -v
+#1567015879
+git remote set-url origin https://github.com/mikaellypereira/mikaelly.github.io.git
+#1567015899
+sudo git remote set-url origin https://github.com/mikaellypereira/mikaelly.github.io.git
+#1567015905
+git remote -v
+#1567015915
+git status
+#1567015917
+ls
+#1567015931
+echo "# mikaelly.github.io" >> README.md
+#1567015942
+git add .
+#1567015950
+sudo git add .
+#1567015954
+sudo git status
+#1567015966
+sudo git push -u origin master
